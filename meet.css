@@ -1,0 +1,14 @@
+.contextMenu {
+    background-color: #1f1f1f;
+    padding: 8px;
+}
+
+.contextMenuOption {
+    color: #cccccc;
+}
+
+.contextMenuOption:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #323232;
+}

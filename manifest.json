@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "FlowGPT Plus",
+    "version": "1.0.0",
+    "description": "FlowGPT 魔氏辅助",
+    "permissions": [
+        "storage"
+    ],
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "content_scripts": [
+        {
+            "js": ["meet.js"],
+            "css": ["meet.css"],
+            "matches": [
+                "https://flowgpt.com/p/*",
+                "http://flowgpt.com/p/*"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
